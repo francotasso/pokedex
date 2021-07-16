@@ -53,8 +53,10 @@ Se utilizó la librería BootstrapVue para manejar estilos básicos de destribuc
 contenedores, columnas, etc. A su vez, se utilizaron sus botones y modales para reducir el tiempo de
 codificación.
 
-Se utilizó el preprocesador de estilos SASS. Se creó la carpeta scss para establecer estilos globales en la aplicación. A esta carpeta en un futuro se la puede estructurar con carpetas de vistas y componentes,
-relacionados a los estilos de componentes Vuejs. Además, los estilos de la aplicación están basados en la metodología de estilos BEM (Block-Element-Modifier)
+Se utilizó el preprocesador de estilos SASS. Se creó la carpeta scss para establecer estilos globales
+en la aplicación. A esta carpeta en un futuro se la puede estructurar con carpetas de vistas y componentes
+relacionados a los estilos de componentes Vuejs. Además, los estilos de la aplicación están basados en la
+metodología de estilos BEM (Block-Element-Modifier)
 
 Se utilizó la librería vue-svg-loader para tratar a los íconos como si fueran componentes Vuejs.
 Los íconos fueron colocados en la carpeta assets.

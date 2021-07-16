@@ -1,0 +1,63 @@
+// Bootstrap variables
+$danger: #F22539;
+$secondary: #BFBFBF;
+$ocre: #ECA539;
+
+//custom variables
+$dangerActive: #C00E20;
+$lightGray: #F5F5F5;
+
+:root {
+    --gray: #BFBFBF !important;
+    --light-gray: #F5F5F5;
+    --dark-gray: #5E5E5E;
+    --light-black: #353535;
+    --danger: #F22539;
+    --danger-active: #C00E20 !important;
+    --ocre: #ECA539;
+}
+
+body {
+    background-color: $lightGray !important; 
+    font-family: Lato;
+}
+
+.btn-danger:active {
+    background-color: $dangerActive !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.modal-body {
+    padding: 0 !important;
+}
+.modal-content {
+    border-radius: .5rem !important;
+}
+
+.favorite-icon {
+    margin-top: 10px;
+    &__neutral {
+        path {
+            fill: white;
+        }
+    }
+    &__disabled {
+        path {
+            fill: $secondary;
+        }
+    }
+    &__enabled {
+        path {
+            fill: $ocre;
+        }
+    }
+}
+
+// Bootstrap and its default variables
+@import 'node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import 'node_modules/bootstrap-vue/src/index.scss';

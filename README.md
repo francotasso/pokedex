@@ -23,6 +23,9 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+### App
+La aplicación se encuentra desplegada [aquí](https://pokedex-franco.netlify.app/).
+
 ### Resumen
 ```
 La arquitectura del proyecto está basado en capas:
